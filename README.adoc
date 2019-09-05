@@ -1,0 +1,23 @@
+= Explore datafy / nav with next.jdbc
+
+Spelling out in code, what is described by Sean Corfield in the https://github.com/seancorfield/next-jdbc/blob/master/doc/datafy-nav-and-schema.md#user-content-identifying-foreign-keys[Identifying Foreign Keys section of the next.jdbc docs] -- navigating from one table to another using https://github.com/cognitect-labs/REBL-distro[REBL]
+
+Assumes one can get REBL running.  See Sean Corfield's https://github.com/seancorfield/dot-clojure[~/.clojure/deps.edn] for rebl-* aliases.  FWIW, I used :rebl-11 for these explorations.
+
+== Some Resources
+
+=== Posts and Videos
+
+* Sean Corfield's https://corfield.org/blog/2018/12/03/datafy-nav/[Clojure 1.10's Datafy and Nav] blog post and https://www.youtube.com/watch?v=ZhzMoEz4j1k[Atom, Chlorine, and Cognitect's REBL] video (from around 6:40 there is a demo of navigating from one table to another)
+* Kasim Tuman's https://www.birkey.co/2018-10-26-datafy-and-tap%3E-in-clojure-1.10.html[Datafy and tap> in Clojure 1.10] blog post
+
+=== Code
+
+* The Horse's Mouth: https://github.com/clojure/clojure/blob/master/src/clj/clojure/datafy.clj[clojure/datafy.clj] and https://github.com/clojure/clojure/blob/master/src/clj/clojure/core/protocols.clj[clojure/core/protocols.clj]
+* Sean Corfield's https://github.com/seancorfield/next-jdbc[next.jdbc] -- next generation of clojure.java.jdbc
+* Christophe Grand's https://github.com/Unrepl/unrepl/commit/ea92a94bbcc7355a8db1671f385026cbe98d3342[support for datafy / nav in unrepl]
+* Will Acton's https://github.com/Lokeh/punk[data REBL built for the web] -- actually can also work with JVM and node
+* Stuart Halloway's https://github.com/stuarthalloway/reflector[reflector repository] -- bespoke use of datafy nav
+* Peter Hull's https://github.com/pedro-w/nav-demo[Clojure 1.10 datafy/nav demo] -- implements Datafiable protocol for the Java class java.nio.file.Path and explore in REBL
+* Mark Bastian's https://github.com/markbastian/datafy-playground/[datafy playground] -- contains questions along with exploratory code for java.io.File and clojure.java.jdbc
+

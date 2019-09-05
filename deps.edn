@@ -1,0 +1,12 @@
+{
+ :paths ["src"]
+ 
+ :deps
+ {
+  com.h2database/h2 {:mvn/version "1.4.199"}
+  com.stuarthalloway.reflector {:git/url "https://github.com/stuarthalloway/reflector.git"
+                                :sha "58565dda87195478843d7cfdb71371ed29a573bd"}
+  org.clojure/clojure {:mvn/version "1.10.1"}
+  seancorfield/next.jdbc {:mvn/version "1.0.5"}
+ }
+}
