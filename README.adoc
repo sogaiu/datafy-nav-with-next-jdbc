@@ -11,6 +11,7 @@ Assumes one can get REBL running.  See Sean Corfield's https://github.com/seanco
 * Sean Corfield's https://corfield.org/blog/2018/12/03/datafy-nav/[Clojure 1.10's Datafy and Nav] blog post and https://www.youtube.com/watch?v=ZhzMoEz4j1k[Atom, Chlorine, and Cognitect's REBL] video (from around 6:40 there is a demo of navigating from one table to another)
 * Kasim Tuman's https://www.birkey.co/2018-10-26-datafy-and-tap%3E-in-clojure-1.10.html[Datafy and tap> in Clojure 1.10] blog post
 * Didier A.'s https://ask.clojure.org/index.php/8550/can-someone-explain-the-arguments-to-nav[Can someone explain the arguments to nav ?] discussion with Sean Corfield and Alex Miller
+* Stan Dyck's https://ask.clojure.org/index.php/9073/where-does-place-function-implementing-navigable-protocol[Where does one place a nav function when implementing Navigable protocol?] discussion with Sean Corfield
 
 === Code
 
