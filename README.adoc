@@ -22,4 +22,4 @@ Assumes one can get REBL running.  See Sean Corfield's https://github.com/seanco
 * Stuart Halloway's https://github.com/stuarthalloway/reflector[reflector repository] -- bespoke use of datafy nav
 * Peter Hull's https://github.com/pedro-w/nav-demo[Clojure 1.10 datafy/nav demo] -- implements Datafiable protocol for the Java class java.nio.file.Path and explore in REBL
 * Mark Bastian's https://github.com/markbastian/datafy-playground/[datafy playground] -- contains questions along with exploratory code for java.io.File and clojure.java.jdbc
-
+* Dimitrios Piliouras's https://github.com/jimpil/jedi-time[Datafiable/Navigable protocol extensions for the core java.time objects] -- A tiny Clojure library designed to complement the java.time API (introduced with Java 8)
