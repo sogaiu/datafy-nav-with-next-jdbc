@@ -17,6 +17,7 @@ Assumes one can get REBL running.  See Sean Corfield's https://github.com/seanco
 
 * The Horse's Mouth: https://github.com/clojure/clojure/blob/master/src/clj/clojure/datafy.clj[clojure/datafy.clj] and https://github.com/clojure/clojure/blob/master/src/clj/clojure/core/protocols.clj[clojure/core/protocols.clj]
 * Sean Corfield's https://github.com/seancorfield/next-jdbc[next.jdbc] -- next generation of clojure.java.jdbc
+* Sean Corfield's https://github.com/seancorfield/datafy-nav-example[datafy-nav-example] -- sample code
 * Christophe Grand's https://github.com/Unrepl/unrepl/commit/ea92a94bbcc7355a8db1671f385026cbe98d3342[support for datafy / nav in unrepl]
 * Will Acton's https://github.com/Lokeh/punk[data REBL built for the web] -- actually can also work with JVM and node
 * Stuart Halloway's https://github.com/stuarthalloway/reflector[reflector repository] -- bespoke use of datafy nav
